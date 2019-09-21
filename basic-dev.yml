@@ -1,6 +1,6 @@
 server:
   #端口号
-  port: 9030
+  port: 9048
   servlet:
     context-path: /basic
 ##数据库连接信息
