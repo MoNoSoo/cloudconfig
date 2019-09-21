@@ -8,9 +8,9 @@ spring:
   application:
     name: inter-hsp-doctor
   datasource:
-    url: jdbc:mysql://10.10.10.14:3306/internethsp?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://10.10.10.249:3306/internethsp?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
     username: root
-    password: 
+    password: mysql_1234
     driver-class-name: com.mysql.jdbc.Driver
     ###################以下为druid增加的配置###########################
     type: com.alibaba.druid.pool.DruidDataSource
