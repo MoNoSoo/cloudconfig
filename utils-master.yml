@@ -22,5 +22,5 @@ eureka:
 sidecar:
   hostname: 127.0.0.1
   ip-address: 127.0.0.1
-  port: 9992     #常用工具服务异构微服务的端口
+  port: 9991     #常用工具服务异构微服务的端口
   healthUri: http://${sidecar.ip-address}:${sidecar.port}/tools/v1/api/test  #对应第三方程序的health接口
